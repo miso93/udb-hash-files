@@ -1,0 +1,12 @@
+{
+    "name": "UDB - hash function",
+    "authors": [
+        {
+            "name": "miso93",
+            "email": "cech.michal@gmail.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "^3.3"
+    }
+}
