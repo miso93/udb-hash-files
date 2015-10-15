@@ -29,11 +29,14 @@
             <h1 class="text-center">Hello, world!</h1>
           </div>
           <div class="col-sm-12">
-            <form class="form form-horizontal" action="/process-file.php" method="post">
+            <form class="form form-horizontal" action="/process-file.php" method="post" enctype="multipart/form-data">
               <div class="form-group">
                 <label class="col-sm-1" id="file">File</label>
                 <div class="col-sm-3">
-                  <input type="file" >
+                  <input type="file" name="file" >
+                </div>
+                <div class="col-sm-2">
+                  <input type="submit" value="Submit">
                 </div>
               </div>
             </form>
